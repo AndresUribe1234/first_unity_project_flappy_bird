@@ -228,7 +228,6 @@ GameObject:
   - component: {fileID: 1677363929}
   - component: {fileID: 1677363928}
   - component: {fileID: 1677363927}
-  - component: {fileID: 1677363932}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -248,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af4b745aa7a2e44a802705a9890c5fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myRigidbody: {fileID: 0}
+  myRigidbody: {fileID: 1677363929}
 --- !u!58 &1677363928
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -378,20 +377,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1677363932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677363926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9bae0d8e5d256443becb56b971a179c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  birdTransform: {fileID: 1677363931}
-  textOffset: {x: 0, y: 1.5, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
